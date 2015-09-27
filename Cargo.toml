@@ -1,0 +1,13 @@
+[package]
+name = "collection_funcs"
+version = "0.1.0"
+authors = ["Vasily Kirichenko <vaskir@gmail.com>"]
+
+[[bin]]
+name = "collection_funcs"
+path = "src/main.rs"
+
+[dependencies]
+time = "*"
+regex = "*"
+itertools = "*"
